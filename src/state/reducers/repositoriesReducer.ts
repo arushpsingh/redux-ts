@@ -15,7 +15,7 @@ interface SearchRepositoriesSuccessActionType {
 
 interface SearchRepositoriesErrorActionType {
   type: "search_repositories_error";
-  payload: string;
+  payload: string
 }
 
 const reducer = (
